@@ -1,0 +1,27 @@
+DB:
+  host: '192.168.1.211'
+  port: 3306
+  user: "bl"
+  pwd: "bl@runfast"
+  db: "majiangcs_log_mq"
+
+mq:
+  host: "192.168.1.111"
+  port: 61613
+
+udp:
+  host: "192.168.1.111"
+  port: 54321
+
+#queue_Xlogger: "/queue/XLOGGER.MQ.RELEASE"
+queue_Xlogger: "/queue/222"
+conlistener_name: 'SampleListener'
+process : 1
+
+localhost: "192.168.1.111"
+
+
+
+
+
+
